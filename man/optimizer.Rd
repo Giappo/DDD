@@ -4,8 +4,14 @@
 \alias{optimizer}
 \title{Carries out optimization (finding a minimum)}
 \usage{
-optimizer(optimmethod = "simplex", optimpars = c(1e-04, 1e-04, 1e-06,
-  1000), num_cycles = 1, fun, trparsopt, ...)
+optimizer(
+  optimmethod = "simplex",
+  optimpars = c(1e-04, 1e-04, 1e-06, 1000),
+  num_cycles = 1,
+  fun,
+  trparsopt,
+  ...
+)
 }
 \arguments{
 \item{optimmethod}{The method to use for optimization, either 'simplex' or
